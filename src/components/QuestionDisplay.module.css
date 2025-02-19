@@ -1,0 +1,13 @@
+    .questionContainer {
+      @apply bg-gray-800 rounded-lg p-6 shadow-md text-white;
+      margin-bottom: 2rem;
+    }
+
+    .questionText {
+      @apply text-xl font-semibold mb-4;
+      min-height: 2.5em; /* Ensure consistent height for question text */
+    }
+
+    .answerContainer {
+      @apply flex flex-wrap justify-center;
+    }

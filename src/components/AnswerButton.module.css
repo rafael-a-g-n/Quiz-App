@@ -1,0 +1,36 @@
+    .answerButton {
+      @apply py-3 px-6 rounded-lg text-white font-semibold transition-colors duration-300 ease-in-out;
+      background-color: #4a4a4a; /* Dark gray background */
+      border: 2px solid #4a4a4a;
+      margin: 0.5rem;
+      min-width: 45%; /* For two buttons per row on smaller screens */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .answerButton:hover:not(:disabled) {
+      @apply bg-gray-600; /* Slightly lighter on hover */
+    }
+
+    .answerButton:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .correct {
+      @apply bg-green-500 border-green-500; /* Green for correct */
+    }
+
+    .incorrect {
+      @apply bg-red-500 border-red-500; /* Red for incorrect */
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .answerButton {
+        min-width: 90%; /* Full width on very small screens */
+      }
+    }

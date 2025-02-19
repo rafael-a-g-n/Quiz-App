@@ -1,0 +1,12 @@
+    .scoreContainer {
+      @apply flex justify-between text-white mb-4;
+    }
+
+    .correctScore {
+      @apply text-green-500 font-semibold;
+			margin-right: 10px;
+    }
+
+    .incorrectScore {
+      @apply text-red-500 font-semibold;
+    }
