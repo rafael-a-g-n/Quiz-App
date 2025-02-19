@@ -92,6 +92,10 @@ This project is a dynamic and engaging quiz application built using React, showc
     ```
     Note: Due to WebContainer limitations, standard testing libraries are not available. A custom testing framework is used for demonstration.
 
+## Live Demo
+
+Check out the live demo at [Quiz App](https://quiz-app-five-bice.vercel.app/)
+
 ## 🤝 Connect with Me
 
 Feel free to connect with me on LinkedIn:
